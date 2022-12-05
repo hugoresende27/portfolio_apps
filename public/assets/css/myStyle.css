@@ -1,0 +1,36 @@
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap'); /*style="font-family: 'Twinkle Star', cursive"*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); /*font-family: 'Lacquer', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); /*font-family: 'Courier Prime', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap'); /*font-family: 'Sono', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Ubuntu&display=swap');/*    font-family: 'Fragment Mono', monospace; font-family: 'Ubuntu', sans-serif;l*/
+
+.myMain{
+    min-height: 88vh;
+
+}
+.myBottom{
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem !important;
+    background-color: black;
+    color: white;
+}
+
+
+.myBtn{
+    background-color: greenyellow;
+    font-family: 'Fragment Mono', monospace;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.myBtn:hover a{
+    font-size: 2rem !important;
+    background-color: black;
+}
