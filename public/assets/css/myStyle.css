@@ -11,6 +11,7 @@
 
 .myMain{
     min-height: 88vh;
+    max-height: 88vh;
 
 }
 .myBottom{
@@ -33,4 +34,52 @@
 .myBtn:hover a{
     font-size: 2rem !important;
     background-color: black;
+}
+
+
+.myMainImage{
+    width: 300px;
+    height: 200px;
+}
+
+.allContentCatar{
+    min-height: 88vh;
+}
+.sideMenuCatar{
+    text-align: center;
+    padding: 1rem;
+    background-color: #6b7280;
+}
+
+.sideMenuCatar button{
+    margin: 1rem;
+    min-width: 10vw;
+}
+
+.mainContentCatar{
+
+    background-color: #9da1ad;
+}
+
+.myIcon{
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -0.1rem;
+}
+
+
+/* ///////////////////////////////////////// RESPONSIVE ///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 80rem) {
+    .myBtn{
+        visibility: hidden;
+    }
+
+    .sideMenuCatar button{
+        margin: 1rem;
+        max-width: 0.9vw;
+        color: #6b7280;
+    }
 }
