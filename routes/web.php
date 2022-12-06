@@ -13,9 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/catar', [\App\Http\Controllers\HomeController::class, 'catar'])->name('catar');
 
 Route::middleware([
     'auth:sanctum',

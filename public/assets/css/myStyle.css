@@ -1,0 +1,85 @@
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap'); /*style="font-family: 'Twinkle Star', cursive"*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); /*font-family: 'Lacquer', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); /*font-family: 'Courier Prime', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap'); /*font-family: 'Sono', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Ubuntu&display=swap');/*    font-family: 'Fragment Mono', monospace; font-family: 'Ubuntu', sans-serif;l*/
+
+.myMain{
+    min-height: 88vh;
+    max-height: 88vh;
+
+}
+.myBottom{
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 2rem !important;
+    background-color: black;
+    color: white;
+}
+
+
+.myBtn{
+    background-color: greenyellow;
+    font-family: 'Fragment Mono', monospace;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.myBtn:hover a{
+    font-size: 2rem !important;
+    background-color: black;
+}
+
+
+.myMainImage{
+    width: 300px;
+    height: 200px;
+}
+
+.allContentCatar{
+    min-height: 88vh;
+}
+.sideMenuCatar{
+    text-align: center;
+    padding: 1rem;
+    background-color: #6b7280;
+}
+
+.sideMenuCatar button{
+    margin: 1rem;
+    min-width: 10vw;
+}
+
+.mainContentCatar{
+
+    background-color: #9da1ad;
+}
+
+.myIcon{
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -0.1rem;
+}
+
+
+/* ///////////////////////////////////////// RESPONSIVE ///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 80rem) {
+    .myBtn{
+        visibility: hidden;
+    }
+
+    .sideMenuCatar button{
+        margin: 1rem;
+        max-width: 0.9vw;
+        color: #6b7280;
+    }
+}
