@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/catar', [\App\Http\Controllers\HomeController::class, 'catar'])->name('catar');
+Route::get('/ip', [\App\Http\Controllers\HomeController::class, 'ip'])->name('ip');
+Route::get('/ip-my-ip', [\App\Http\Controllers\ipController::class, 'myIp'])->name('ip.myip');
 
 Route::middleware([
     'auth:sanctum',

@@ -2,6 +2,11 @@
 
 @extends('layouts.app')
 
+@section('page_title')
+    {{ "HR - " }}
+@endsection
+
+
 @section('content')
 
 
@@ -9,15 +14,15 @@
 
         @include('layouts.header')
 
-        <div class="row allContentCatar">
-            <div class="col-2 sideMenuCatar">
+        <div class="row allContent">
+            <div class="col-2 sideMenu">
 
                 <button type="button" class="btn btn-light rounded-full btn-lg mySideMenuText"><img src="{{asset('assets/images/soccer1.png')}}" alt="soccer" class="myIcon">Results</button>
                 <button type="button" class="btn btn-light rounded-full btn-lg mySideMenuText"><img src="{{asset('assets/images/soccer2.jpg')}}" alt="soccer" class="myIcon">Stats</button>
                 <button type="button" class="btn btn-light rounded-full btn-lg mySideMenuText"><img src="{{asset('assets/images/soccer3.png')}}" alt="soccer" class="myIcon">History</button>
 
             </div>
-            <div class="col-10 mainContentCatar">
+            <div class="col-10 mainContent">
                 main
             </div>
         </div>

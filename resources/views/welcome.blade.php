@@ -10,8 +10,12 @@
             @include('layouts.header')
 
 
-            <div class="columns-3 ...">
+            <div class="columns-3 ... m-3">
                 <a href="{{route('catar')}}"><img src="{{asset('assets/images/catar2022.jpeg')}}" alt="catar2022" class="myMainImage"></a>
+            </div>
+
+            <div class="columns-3 ... m-3">
+                <a href="{{route('ip')}}"><img src="{{asset('assets/images/ip.jpeg')}}" alt="catar2022" class="myMainImage"></a>
             </div>
 
         </div>

@@ -1,7 +1,5 @@
 
-
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-
 @import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap'); /*style="font-family: 'Twinkle Star', cursive"*/
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); /*font-family: 'Lacquer', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap'); /*font-family: 'Courier Prime', monospace;*/
@@ -42,22 +40,21 @@
     height: 200px;
 }
 
-.allContentCatar{
+.allContent{
     min-height: 88vh;
 }
-.sideMenuCatar{
+.sideMenu{
     text-align: center;
     padding: 1rem;
     background-color: #6b7280;
 }
 
-.sideMenuCatar button{
+.sideMenu button{
     margin: 1rem;
     min-width: 10vw;
 }
 
-.mainContentCatar{
-
+.mainContent{
     background-color: #9da1ad;
 }
 
@@ -69,6 +66,31 @@
     margin-left: -0.1rem;
 }
 
+.myIconBig{
+    max-width: 10rem !important;
+    max-height: 8rem !important;
+
+}
+
+.results{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.myCard{
+    background-color: yellow;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 400px;
+}
+
+.myImage{
+    max-width: 15rem !important;
+    max-height: 15rem !important;
+    border-radius: 3rem;
+}
+
 
 /* ///////////////////////////////////////// RESPONSIVE ///////////////////////////////////////////////////////////*/
 
@@ -77,9 +99,37 @@
         visibility: hidden;
     }
 
-    .sideMenuCatar button{
+    .sideMenu button{
         margin: 1rem;
         max-width: 0.9vw;
         color: #6b7280;
+    }
+
+    .myBottom{
+        visibility: hidden;
+    }
+
+    .results{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+    .myCard{
+        background-color: #9da1ad;
+        /*margin: 1rem;*/
+        /*padding: 1rem;*/
+        /*border-radius: 1rem;*/
+        /*min-width: 200px;*/
+    }
+
+    .myIconBig{
+        max-width: 5rem !important;
+        max-height: 3rem !important;
+    }
+
+    .myImage{
+        max-width: 5rem !important;
+        max-height: 5rem !important;
+        border-radius: 1rem;
     }
 }
